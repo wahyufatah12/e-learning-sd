@@ -1,12 +1,12 @@
 <x-layouts.app>
-    <div class="min-h-screen bg-blue-50 text-gray-800">
+    <div class="min-h-screen bg-red-50 text-gray-800">
         {{-- Panggil komponen navbar --}}
         @livewire('navbar')
-
+       
         <!-- Hero Section -->
-        <section class="bg-blue-100 py-30">
+        <section class="bg-sky-100 py-30">
             <div class="container mx-auto text-center">
-                <h2 class="text-4xl font-bold mb-4">Selamat Datang di E-Learning!</h2>
+                <h2 class="text-4xl font-bold mb-4">Selamat Datang di E-Learning Sd Negeri 2!</h2>
             </div>
         </section>
 
@@ -18,7 +18,7 @@
 
                     <h3 class="text-xl font-bold mb-2">Kuis</h3>
                     <p class="text-gray-600 mb-4">Latihan soal interaktif untuk siswa.</p>
-                    <a href="#" class="text-blue-600 font-semibold hover:underline">Buka Kuis</a>
+                    <a href="https://quizizz.com/join " class="text-blue-600 font-semibold hover:underline">Buka Kuis</a>
                 </div>
                 <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition text-center">
                 <img src="{{ asset('images/ujian.jpg') }}" alt="Icon Ujian" class="mx-auto mb-4 w-20 h-20">
