@@ -3,8 +3,10 @@
         {{-- Panggil komponen navbar --}}
         @livewire('navbar')
        
+
+       
         <!-- Hero Section -->
-        <section class="bg-sky-100 py-30">
+        <section class="bg-blue-500 py-30">
             <div class="container mx-auto text-center">
                 <h2 class="text-4xl font-bold mb-4">Selamat Datang di E-Learning Sd Negeri 2!</h2>
             </div>
@@ -36,7 +38,7 @@
                 <img src="{{ asset('images/materi.jpg') }}" alt="Icon absensi" class="mx-auto mb-4 w-20 h-20">
                     <h3 class="text-xl font-bold mb-2">Materi</h3>
                     <p class="text-gray-600 mb-4">Materi siswa .</p>
-                    <a href="#" class="text-blue-600 font-semibold hover:underline">Materi</a>
+                    <a href="{{ url('/materi') }}" class="text-blue-600 font-semibold hover:underline">Materi</a>
             </div>
         </section>
     </div>
